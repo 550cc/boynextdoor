@@ -1,9 +1,9 @@
 services:
   # A Docker web service
   - type: web
-    name: alist
+    name: boynextdoor
     env: docker
-    repo: https://github.com/alist-org/alist-render.git # optional
+    repo: https://github.com/550cc/boynextdoor.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
